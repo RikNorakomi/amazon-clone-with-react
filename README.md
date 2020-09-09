@@ -1,6 +1,7 @@
 ## Amazon clone created with ReactJS!
 
 - Flexbox for styling
+- Context API for data layer
 
 Used packages:
 - npm install @material-ui/core
