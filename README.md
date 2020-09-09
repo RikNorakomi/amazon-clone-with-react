@@ -1,3 +1,28 @@
+## Amazon clone created with ReactJS!
+
+- Flexbox for styling
+
+Used packages:
+- npm install @material-ui/core
+- npm install @material-ui/icons
+- npm i react-router
+
+### Website hosted at:
+
+Website hosted via Firebase Hosting at: [xxx]
+
+
+
+
+
+
+
+
+
+
+==================
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
