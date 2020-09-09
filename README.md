@@ -6,7 +6,7 @@ Used packages:
 - npm install @material-ui/core
 - npm install @material-ui/icons
 - npm i react-router-dom
-- 
+- npm i react-currency-format
 
 ### Website hosted at:
 
