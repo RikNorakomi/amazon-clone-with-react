@@ -8,6 +8,7 @@ Used packages:
 - npm install @material-ui/icons
 - npm i react-router-dom
 - npm i react-currency-format
+- npm i firebase
 
 ### Website hosted at:
 
