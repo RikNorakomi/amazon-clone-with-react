@@ -1,5 +1,7 @@
 ## Amazon clone created with ReactJS!
 
+Live at: https://clone-with-login-stripe.web.app/
+
 - Flexbox for styling
 - Context API for data layer
 
@@ -12,7 +14,7 @@ Used packages:
 
 ### Website hosted at:
 
-Website hosted via Firebase Hosting at: [xxx]
+Website hosted via Firebase Hosting at: [https://clone-with-login-stripe.web.app/]
 
 
 
