@@ -1,16 +1,29 @@
 import React, { useState } from "react";
 import "./Login.css";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
+import { auth } from "./firebase.js";
 
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const history = useHistory();
 
   const signIn = (e) => {
     // prevents page from refreshing
     e.preventDefault();
 
     //some fancy firebase login shiiiiiitttt!!
+    auth
+      .signInWithEmailAndPassword(email, password)
+      .then((auth) => {
+        console.log("auth object created on register: " + auth);
+
+        // If user is logged in (there is an auth object) then push the browser history to /
+        if (auth) {
+          history.push("/");
+        }
+      })
+      .catch((error) => alert(error.message));
   };
 
   const register = (e) => {
@@ -18,6 +31,17 @@ function Login() {
     e.preventDefault();
 
     //some fancy firebase register stuf!!
+    auth
+      .createUserWithEmailAndPassword(email, password)
+      .then((auth) => {
+        console.log("auth object created on register: " + auth);
+
+        // If user is logged in (there is an auth object) then push the browser history to /
+        if (auth) {
+          history.push("/");
+        }
+      })
+      .catch((error) => alert(error.message));
   };
 
   return (
@@ -47,7 +71,7 @@ function Login() {
 
           <button
             type="submit"
-            onCLick={signIn}
+            onClick={signIn}
             className="login__signInButton"
           >
             Sign In
