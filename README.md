@@ -4,8 +4,13 @@ Live at: https://clone-with-login-stripe.web.app/
 
 - Flexbox for styling
 - Context API for data layer
+- Checkout page (payment page)
+- Cloud function to process Stripe payment (serverless)
+- Firebase for real-time database (firestore)
+- MERN stack
 
 Used packages:
+
 - npm install @material-ui/core
 - npm install @material-ui/icons
 - npm i react-router-dom
@@ -16,17 +21,7 @@ Used packages:
 
 Website hosted via Firebase Hosting at: [https://clone-with-login-stripe.web.app/]
 
-
-
-
-
-
-
-
-
-
 ==================
-
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
