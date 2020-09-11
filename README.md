@@ -23,7 +23,11 @@ Website hosted via Firebase Hosting at: [https://clone-with-login-stripe.web.app
 
 
 
+### Code explenation
 
+Hooks used:
+- useHistory() from react-router-dom to get the Browser's history, but also used to navigate. F.e.:
+-- history.push("/payment") navigatesto the payment page
 
 ==================
 
