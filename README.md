@@ -21,6 +21,23 @@ Used packages:
 
 Website hosted via Firebase Hosting at: [https://clone-with-login-stripe.web.app/]
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+### Code explenation
+
+Hooks used:
+- useHistory() from react-router-dom to get the Browser's history, but also used to navigate. F.e.:
+history.push("/payment") navigatesto the payment page. 
+- difference between <Link to"/"> and history.push("/") is that with history you do it **programatically** without using the styling of <Link>, while with Link you wrap an clickable element that when clicked navigates to it.  
+
+>>>>>>> 7d3bcd921d755b4ebe7fc982f8c65c447100be13
 ==================
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
