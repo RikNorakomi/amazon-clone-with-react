@@ -16,6 +16,20 @@ Used packages:
 - npm i react-router-dom
 - npm i react-currency-format
 - npm i firebase
+- npm i @stripe/stripe-js
+- npm i @stripe/react-stripe-js
+- npm i axios
+
+Used packages BACKEND:
+
+- firebase cloud functions setup to host backend
+- npm i express
+- npm i cors
+- npm i stripe
+
+To emulate the backend via Firebase Functions write:
+
+- firebase emulators:start
 
 ### Website hosted at:
 
@@ -24,9 +38,12 @@ Website hosted via Firebase Hosting at: [https://clone-with-login-stripe.web.app
 ### Code explenation
 
 Hooks used:
+
 - useHistory() from react-router-dom to get the Browser's history, but also used to navigate. F.e.:
-history.push("/payment") navigatesto the payment page. 
-- difference between <Link to"/"> and history.push("/") is that with history you do it **programatically** without using the styling of <Link>, while with Link you wrap an clickable element that when clicked navigates to it.  
+  history.push("/payment") navigatesto the payment page.
+- difference between <Link to"/"> and history.push("/") is that with history you do it **programatically** without using the styling of <Link>, while with Link you wrap an clickable element that when clicked navigates to it.
+
+==================
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
